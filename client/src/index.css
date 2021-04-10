@@ -1,0 +1,94 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-color: pink;*/
+  font-size: 26px;
+  /*background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: pink;
+}
+.ant-descriptions-item{
+  font-size: 26px;
+}
+.ant-descriptions-title {
+  font-size: 30px;
+}
+input.ant-input{
+  font-size: 25px;
+}
+.app {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input.error {
+  border-color: red;
+}
+
+img{
+  max-width:250px;
+  max-height: 400px;
+}
+.ant-form label {
+  font-size: 30px;
+}
+.ant-form-item-required{
+  font-size: 30px;
+}
+.slick-list{
+  height: 300px;
+  width: 290px;
+
+}
+.ant-card-meta-title{
+  font-size: 50px;
+}
+.ant-card-meta-description{
+  font-size: 15px;
+  font-weight: bold;
+}
+.ant-collapse-content-box{
+background-color: #faf5f5;
+}
+.input-feedback {
+  color: red;
+  height: 5px;
+  margin-top: -12px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
