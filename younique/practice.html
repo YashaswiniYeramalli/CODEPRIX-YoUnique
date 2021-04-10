@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open up!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cons">
+            <form name="login">
+           <input type="text" name="consoler" placeholder="Enter username">
+           <input type="password" name="password" placeholder="password">
+           <input type="button" onclick="enter(this.form)" value="login"/>
+            </form>
+        </div>
+        <div class="geust">
+             <button onclick="entergeust()" target="_blank">guest</button>
+        </div>
+    </div>
+    <script>
+       function enter(form)
+       {
+        var x= form.consoler.value;
+       var p=form.password.value;
+       if(x=="OpenUp" && p =="letstalk"){
+           window.open('http://localhost:3000')
+       }
+       else {
+           alert("Incorrect username or password");
+       }}
+       function entergeust()
+       {
+           window.open('http://localhost:3000');
+       }
+    </script>
+</body>
+</html>
